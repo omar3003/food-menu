@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 95%;
+    margin: 0 auto;
+    font-family: 'Cairo', sans-serif;
+    
+}
+   
+
+
+.img {
+    width: 250px;
+    height: 150px;
+    max-width: 100%;
+    
+    border: 4px solid brown;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    list-style-type: none;
+}
+
+ 
+
+
+.Food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 100%;
+}
+
+button {
+    border: 1px solid brown;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 1px solid brown;
+    padding: 0 0 15px 0;
+}
+
+.food-description {
+    padding-top: 15px;
+    width: 300px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+
+.Food.hide {
+    display: none;
+}
+
+
+
+@media (max-width: 639px)  {
+    .menu {
+        text-align: center;
+    }
+}
+    
+
+   
+
+   
